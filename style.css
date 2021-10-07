@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    background-image:url('Shifumibg.gif'); background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.imguser {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 200px;
+}
+
+.scoremove1 {
+  color: #ce95cb;
+  text-align: center;
+  font-family: "Courier New (monospace)", sans-serif;
+  position: relative;
+  right: 610px;
+  top: 200px;
+}
+
+.scoremove2 {
+  color: #ce95cb;
+  text-align: center;
+  font-family: "Courier New (monospace)", sans-serif;
+  position: relative;
+  left: 610px;
+  top: 170px;
+}
+
+.imgbot {
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-right: 200px;
+}
+
+.imgalign {
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+  #titre {
+    text-align: center;
+    font-family: "Courier New (monospace)", sans-serif;
+    color: #ce95cb;
+    border: 2px solid rgb(213, 181, 228);
+    border-radius: 8px;
+    width: 350px;
+    letter-spacing: 2.5px;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .score {
+    width: 150px;
+    height: 114px;
+    background-color: rgb(147, 68, 167);
+    border: 2px solid rgb(213, 181, 228);
+    border-radius: 8px;
+    margin-left: 1000px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    
+   
+  }
+  
+  .score h1 {
+    color: #ce95cb;
+    font-size: 56px;
+    font-family: "Courier New (monospace)", sans-serif;
+  }
+  
+  .score p {
+    color: #e69ced;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+  }
+  
+  .hands {
+    background-position: center;
+    background-repeat: no-repeat;
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    width: 800px;
+    height: 470px;
+    margin: auto;
+    display: flex;
+    z-index: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hands img {
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
+
+  .handpaper {
+    border: 2px solid rgb(213, 181, 228);
+    border-radius: 8px;
+  }
+
+  .handrock {
+    border: 2px solid rgb(213, 181, 228);
+    
+    border-radius: 8px;
+  }
+  .handscissors {
+    border: 2px solid rgb(213, 181, 228);
+    border-radius: 8px;
+  }
+
+  .contest {
+    display: none;
+    margin-top: 50px;
+    width: 900px;
+  }
+  
+  .contest img {
+    width: 275px;
+    height: 275px;
+  }
+  
+  .contest > div {
+    flex: 1;
+  }
+  
+  .contest h1 {
+    color: rgb(216, 192, 221);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .contest .newGame {
+    font-weight: bold;
+    color: hsl(293, 61%, 66%);
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  
+  .newGame:hover {
+    background: rgb(100, 6, 146);
+    transform: translate3d(0px, -2px, 0px);
+  }
+  
+  .contest .handImageContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .referee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .referee h1 {
+    font-size: 60px;
+    color: rgb(215, 179, 225);
+  }
+  
+  .newGame {
+    color: #d3a7d1;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .computerhand {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .computerhand h1 {
+    color:rgb(216, 192, 221);
+  }

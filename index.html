@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shifumi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+</head>
+
+<body>
+  <div id="titre">
+    <h2>SHIFUMI</h2>
+  </div>
+  <div class="score">
+    <p>SCORE</p>
+    <h1 class="scorechanger">0</h1>
+  </div>
+  </div>
+  <div class="arrowalign">
+    <img class="arrowimg" src="" alt="">
+  </div>
+  <div class="imgalign">
+    <h1 class="scoremove1" id="scoreuser">THE USER</h1>
+    <h1 class="scoremove2" id="scorebot">THE BOT</h1>
+    <img class="imguser" src="imgcontour.jpeg" alt="">
+    <img class="imgbot"" src=" imgcontour.jpeg" alt="">
+  </div>
+  <div class="hands">
+    <div class="handpaper">
+      <img src="purplepaper.png" alt="" onclick="pickUserHand('papier')">
+    </div>
+    <div class="handrock">
+      <img src="handrock.jpg" alt="" onclick="pickUserHand('rock')">
+    </div>
+    <div class="handscissors">
+      <img src="scissors-removebg-preview.jpg" alt="" onclick="pickUserHand('ciseaux')">
+    </div>
+  </div>
+  <div class="contest">
+    <div class="userhand">
+      <h1>YOU CHOOSED!</h1>
+      <div class="handImageContainer">
+        <img id="userPickImage" src="purplepaper.png">
+      </div>
+    </div>
+    <div class="referee">
+      <div class="decision">
+        <h1>Gagné!</h1>
+      </div>
+      <div class="newGame" onclick="restartGame()">Jouer</div>
+    </div>
+    <div class="computerhand">
+      <h1>THE HOUSE PICKED</h1>
+      <div class="handImageContainer">
+        <img id="computerPickImage" src='purplepaper.png' />
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
